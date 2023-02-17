@@ -22,7 +22,7 @@ void *fun(void * arg){
 }
 
 /*
- *	用来模拟：如果没有线程同步会发生什么?
+ *	用来模拟：如果没有线程同步，多个线程访问临界资源的时会发生什么?
  */
 int main(void){
 	pthread_t tid, pid;
